@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+</html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <script>
+        function razorpaypage() {
+            alert("Form Submitted, Continue for Payment Page")
+            window.open("https://pages.razorpay.com/pl_IE3TC4scONQOIG/view");
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-----*******navbar start*******----->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="title-logo-wrapper">
+                <a class="navbar-brand" href="https://greenindiaecoservices.com/" title="Green India ">
+                    <img src="https://greenindiaecoservices.com/wp-content/uploads/2019/01/Green_India_Eco_Services-1.png" alt="Green India Eco Services">
+                </a>
+            </div>
+            <a class="navbar-brand" href="#">GreenIndia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="whydonateus.html">Why Donate Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <a class="nav-btn" href="donate.html">
+                    <button class="btn btn-success">Donate Now</button>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+    <!-----*******navbar end*******----->
+
+    <!--********page title start********-->
+    <div class="page-nav no-margin row">
+        <div class="container">
+
+            <div class="row">
+                <h2>Donation Form</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-home">
+                             
+                         </i> Home
+                        </a>
+                    </li>
+                    <li><i class="fas fa-angle-double-right">
+                    
+                </i> Donate
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-----*******page title end*******----->
+
+    <!----************donate start************---->
+    <div class="row contact-rooo no-margin">
+        <div class="container">
+            <div class="row">
+                <div style="padding:20px" class="col-sm-7">
+                    <style>
+                        .col-sm-7 {
+                            max-width: 100%;
+                        }
+                    </style>
+                    <form action="form2.php" method="post" onsubmit="razorpaypage()">
+                        <div class="form">
+                            <div class="row cont-row">
+                                <div class="col-sm-3" id="name1"><label> Name </label><span>:</span></div>
+                                <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="Name" required="" class="form-control input-sm"></div>
+                            </div>
+                            <div class="row cont-row">
+                                <div class="col-sm-3"><label>Email </label><span>:</span></div>
+                                <div class="col-sm-8"><input type="text" name="Email" placeholder="Enter Email Address" required="" class="form-control input-sm"></div>
+                            </div>
+                            <div class="row cont-row">
+                                <div class="col-sm-3"><label>Mobile No</label><span>:</span></div>
+                                <div class="col-sm-8"><input type="text" name="Mobile" placeholder="Enter Mobile Number" required="" class="form-control input-sm"></div>
+                            </div>
+                            <div class="row cont-row">
+                                <div class="col-sm-3"><label> Address</label><span>:</span></div>
+                                <div class="col-sm-8">
+                                    <textarea rows="5" placeholder="Enter Your Address" class="form-control input-sm" required="" name="Address"></textarea>
+                                </div>
+                            </div>
+                            <div style="margin-top:10px;" class="row">
+                                <div style="padding-top:10px;" class="col-sm-3"><label></label></div>
+                                <div class="col-sm-8">
+                                    <button class="btnbtn" name="PayNow">DONATE NOW
+                     <style>
+                      .btnbtn {
+                        cursor: pointer;
+                        font-family: montserrat;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: white;
+                        line-height: 1.5;
+                        border-radius: .25rem;
+                        padding: .375rem .75rem;
+                        background-color: rgb(54 206 83);
+                        border-color: rgb(68 173 89 / 0%);
+                        margin-left: 94px;
+                      }
+                      </style>
+                    </style>
+                  </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----*******donate page end*******----->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Green-India</h4>
+                        <p>We are GreenIndia NGO, helping ,Maintainig nature to grow better and clean.</p>
+                        <div class="foot address">
+
+                            <div class="addet">
+                                GreenIndiaNGO
+                                <br> Amar Tate
+                                <br> K J College Pune Maharashtra, India
+                            </div>
+                        </div>
+                        <div class="foot-address">
+
+                            <div class="addet">
+                                greenindiango@gmail.com
+                                <br>
+                            </div>
+                            <div class="foot-address">
+
+                                <div class="addet">
+                                    7483749050
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="whydonateus.html">Why to donate</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our NGO team</h4>
+                        <p>For joining our team drop your email here and click join we will guide you ! :)</p>
+                        <form action="NGOjoin.php" method="post" onsubmit="contactform()">
+                            <input type="email" name="Email" id="email" required>
+                            <input type="submit" id="Sub" name="join" value="join">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="container d-md-flex py-4">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        © Copyright <strong><span>Green India</span></strong>. All Rights Reserved
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+</html>
